@@ -9,6 +9,7 @@ import Test from "./Test";
   
   const App = () => {
   return <div>
+    <cursor/>
     <section id="Homepage">
       <Navbar/>
       <Hero/>
@@ -22,6 +23,7 @@ import Test from "./Test";
     </section> 
     {/* <Test/>
     <Test/> */}
+    
   </div>;
 };
 
